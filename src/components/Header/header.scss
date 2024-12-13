@@ -1,0 +1,33 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 500;
+  width: 100%;
+  height: calcu(77);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 700;
+  background-color: white;
+  box-shadow: 0 3px 13px -4px rgba(0, 0, 0, 0.14);
+
+  .logo {
+    h1 {
+      color: black !important;
+      font-size: calcu(20) !important;
+    }
+
+  }
+
+  .menu {
+    display: flex;
+    gap: calcu(20);
+
+    a {
+      text-decoration: none;
+      font-size: calcu(20);
+      font-weight: 500;
+    }
+  }
+}

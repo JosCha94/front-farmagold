@@ -1,0 +1,102 @@
+.img-banner {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.container-div-servicios {
+  width: 100%;
+  height: calcu(600);
+
+  .div-servicios {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .card-servicios {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: calcu(200);
+
+    svg {
+      width: 100%;
+      height: auto;
+    }
+
+    p {
+      font-family: Roboto_medium;
+      font-weight: 500;
+      font-size: calcu(17);
+
+    }
+
+  }
+
+}
+
+.container-div-certificados {
+  width: 100%;
+  height: calcu(600);
+
+  p {
+    font-family: Roboto_medium;
+    font-weight: 500;
+    font-size: calcu(18);
+
+  }
+
+  .div-certificados {
+    display: flex;
+    justify-content: center;
+    gap: calcu(50);
+    padding-top: calcu(50);
+
+    img {
+      width: calcu(300);
+      height: calcu(300);
+      object-fit: contain;
+    }
+  }
+}
+
+.container-div-contacto {
+  width: 100%;
+  height: auto;
+  margin-top: calcu(20);
+
+  .div-contacto {
+    display: flex;
+    flex-direction: column;
+    gap: calcu(20);
+
+
+    a {
+      font-family: Roboto_regular;
+      font-weight: 400;
+      font-size: calcu(22);
+      line-height: 104%;
+      text-decoration: none;
+    }
+
+  }
+
+  .map-responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+    margin-top: calcu(50);
+  }
+
+  .map-responsive iframe {
+    left: 0;
+    top: 0;
+    border: 0;
+    height: calcu(400);
+    width: 100%;
+    position: absolute;
+  }
+
+}

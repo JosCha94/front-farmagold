@@ -1,0 +1,11 @@
+.row-lotes,
+.row-productos,
+.row-categiras {
+  display: flex;
+  justify-content: space-around;
+  gap: calcu(20);
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: calcu(120);
+}

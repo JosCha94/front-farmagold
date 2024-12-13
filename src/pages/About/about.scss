@@ -1,0 +1,89 @@
+.banner-nosotros {
+  position: relative;
+
+  h1 {
+    position: absolute;
+    bottom: 7%;
+    left: 7%;
+  }
+}
+
+.container_quienes_somos {
+  width: 100%;
+  height: auto;
+  padding-top: calcu(55);
+  padding-bottom: calcu(55);
+  display: flex;
+
+  .div_qs {
+    width: 50%;
+    display: flex;
+    align-items: center;
+
+    img {
+      height: calcu(300);
+      width: 100%;
+    }
+  }
+}
+
+.container-historia {
+  display: flex;
+  background: #fcfcfc;
+
+  .div-h {
+    width: 50%;
+    display: flex;
+    align-items: center;
+
+    img {
+      height: calcu(300);
+      width: 100%;
+    }
+
+  }
+}
+
+.container-mv {
+  display: flex;
+
+  .div-mv {
+    width: 50%;
+    display: flex;
+    align-items: center;
+
+    img {
+      height: calcu(300);
+      width: 100%;
+    }
+  }
+}
+
+.container-valores {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #fcfcfc;
+
+  p {
+    font-size: calcu(18);
+  }
+
+  div {
+    display: flex;
+    gap: calcu(20);
+  }
+
+  figure {
+    img {
+      width: 100%;
+      height: calcu(100);
+      object-fit: cover;
+    }
+
+    figcaption {
+      font-size: calcu(18);
+    }
+  }
+}

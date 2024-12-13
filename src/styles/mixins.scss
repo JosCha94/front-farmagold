@@ -1,0 +1,19 @@
+:root {
+  --width_base: 1440;
+}
+
+// @media (max-width: 1024px) {
+//   :root {
+//     --width_base: 768;
+//   }
+// }
+
+@media (max-width: 768px) {
+  :root {
+    --width_base: 375;
+  }
+}
+
+@function calcu($number: 0) {
+  @return calc(100vw * ($number / var(--width_base)));
+}
